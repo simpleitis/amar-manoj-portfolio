@@ -1,6 +1,6 @@
 'use client'
 
-import { FaLinkedin } from 'react-icons/fa'
+import { FaInstagram, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { toast } from 'sonner'
@@ -12,7 +12,8 @@ const LinkStrips = () => {
         <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
           <a
             className="flex justify-end items-center w-full p-3"
-            href="http://linkedin.com/in/amar-Manoj"
+            href="https://www.linkedin.com/in/amar-nair-b77163102"
+            target="_blank"
           >
             <FaLinkedin size={30} />
           </a>
@@ -20,7 +21,7 @@ const LinkStrips = () => {
         <li
           className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]"
           onClick={() => {
-            navigator.clipboard.writeText('amarkrishna25@gmail.com')
+            navigator.clipboard.writeText('amarm1234@gmail.com')
             toast.success('Email copied')
           }}
         >
@@ -34,6 +35,15 @@ const LinkStrips = () => {
             href="https://drive.google.com/file/d/1gJ5HRl2H5fpwFxIGJSvuUeV51rSsxoTI/view?usp=share_link"
           >
             <BsFillPersonLinesFill size={30} />
+          </a>
+        </li>
+        <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-pink-600">
+          <a
+            className="flex justify-end items-center w-full p-3"
+            href="https://www.linkedin.com/in/amar-nair-b77163102"
+            target="_blank"
+          >
+            <FaInstagram size={30} />
           </a>
         </li>
       </ul>
