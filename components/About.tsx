@@ -4,10 +4,10 @@ import React from 'react'
 const About = () => {
   return (
     <div
-      className="bg-silver-400 h-96 w-96 mt-20 border bg-lime-300 rounded-xl grid grid-cols-2 gap-2 p-5 min-w-[60%] text-slate-800"
+      className="bg-silver-400 h-max mx-5 sm:w-96 mt-20 border bg-lime-300 rounded-xl grid grid-cols-1 sm:grid-cols-2 gap-10 p-5 min-w-[60%] text-slate-800 "
       id="about"
     >
-      <div className="bg-lime-200 rounded-xl flex flex-col items-center p-5 border border-lime-500 ">
+      <div className="bg-lime-200 rounded-xl flex flex-col  items-center p-5 border border-lime-500 ">
         <p className="font-bold underline mb-5 text-lg p-2">Work Story</p>
         <p className="text-lg">
           With close to 5 years under my belt working with both 4-wheelers and

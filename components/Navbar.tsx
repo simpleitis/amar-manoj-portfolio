@@ -5,6 +5,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { toast } from 'sonner'
+import { GiHamburgerMenu } from 'react-icons/gi'
 import Link from 'next/link'
 import Image from 'next/image'
 
@@ -28,14 +29,13 @@ const Navbar = () => {
       </Link>
       <div className="flex items-center justify-between pr-3 lg:pr-0 ">
         <nav>
-          <section className="MOBILE-MENU flex lg:hidden bg-slate-800">
-            <div
-              className="HAMBURGER-ICON space-y-2 "
-              onClick={() => setIsNavOpen((prev) => !prev)}
-            >
-              <span className="block h-0.5 w-8 animate-pulse bg-white"></span>
-              <span className="block h-0.5 w-8 animate-pulse bg-white"></span>
-              <span className="block h-0.5 w-8 animate-pulse bg-white"></span>
+          <section className="MOBILE-MENU flex lg:hidden bg-inherit">
+            <div onClick={() => setIsNavOpen((prev) => !prev)}>
+              <div className="bg-inherit">
+                <div className="block h-0.5 w-8 bg-white mb-2 animate-pulse"></div>
+                <div className="block h-0.5 w-8 bg-white mb-2 animate-pulse"></div>
+                <div className="block h-0.5 w-8 bg-white mb-2 animate-pulse"></div>
+              </div>
             </div>
             <div
               className={
@@ -61,8 +61,6 @@ const Navbar = () => {
                   <line x1="6" y1="6" x2="18" y2="18" />
                 </svg>
               </div>
-
-              
 
               <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between font-medium text-white bg-slate-800 bg-opacity-50 backdrop-blur-md w-screen h-screen">
                 <li className="border-b border-gray-400 my-8 text-2xl font-bold">
