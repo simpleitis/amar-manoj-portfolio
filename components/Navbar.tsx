@@ -64,22 +64,22 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li className="border-b border-gray-400 my-8 text-2xl font-bold">
-                  <Link onClick={() => setIsNavOpen(false)} href="#home">
+                  <Link onClick={() => setIsNavOpen(false)} href="#about">
                     About
                   </Link>
                 </li>
                 <li className="border-b border-gray-400 my-8 text-2xl font-bold">
-                  <Link onClick={() => setIsNavOpen(false)} href="#home">
+                  <Link onClick={() => setIsNavOpen(false)} href="#skills">
                     Skills
                   </Link>
                 </li>
                 <li className="border-b border-gray-400 my-8 text-2xl font-bold">
-                  <Link onClick={() => setIsNavOpen(false)} href="#home">
+                  <Link onClick={() => setIsNavOpen(false)} href="#work">
                     Work
                   </Link>
                 </li>
                 <li className="border-b border-gray-400 my-8 text-2xl font-bold">
-                  <Link onClick={() => setIsNavOpen(false)} href="#home">
+                  <Link onClick={() => setIsNavOpen(false)} href="#contact">
                     Contact
                   </Link>
                 </li>
@@ -103,7 +103,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link href="#home">
+              <Link href="#about">
                 <p className="group transition duration-300">
                   About
                   <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-500"></span>
@@ -111,7 +111,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link href="#home">
+              <Link href="#skills">
                 <p className="group transition duration-300">
                   Skills
                   <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-500"></span>
@@ -119,7 +119,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link href="#home">
+              <Link href="#work">
                 <p className="group transition duration-300">
                   Work
                   <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-500"></span>
@@ -127,7 +127,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link href="#home">
+              <Link href="#contact">
                 <p className="group transition duration-300">
                   Contact
                   <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-500"></span>
