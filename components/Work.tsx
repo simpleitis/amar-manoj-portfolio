@@ -27,8 +27,9 @@ const Work = () => {
           <p className="font-bold text-2xl">Achievements</p>
           <ul>
             <li>
-              <span className="text-2xl font-bold">.</span> Mastered electrical
-              repairs, becoming the workshop's go-to expert.
+              <span className="text-2xl font-bold">.</span>
+              {`Mastered electrical
+              repairs, becoming the workshop's go-to expert.`}
             </li>
             <li>
               <span className="text-2xl font-bold">.</span> Mastered embedded

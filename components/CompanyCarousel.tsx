@@ -15,7 +15,7 @@ const CompanyCarousel = () => {
   ]
   const items = companies.map((company) => {
     return (
-      <div className="h-36">
+      <div key={company} className="h-36">
         <Image
           fill={true}
           src={`/${company}.png`}
@@ -28,9 +28,7 @@ const CompanyCarousel = () => {
 
   return (
     <div className="mt-20 bg-slate-800 bg-opacity-30 p-10 rounded-xl flex flex-col items-center justify-center">
-      <p className="text-xl font-semibold mb-5 ">
-        I have worked on 
-      </p>
+      <p className="text-xl font-semibold mb-5 ">I have worked on</p>
       <AliceCarousel
         autoPlayInterval={800}
         animationDuration={1500}
