@@ -1,9 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
+import { DiSnapSvg } from 'react-icons/di'
 
 const MainPage = () => {
   return (
-    <div className="p-5 grid grid-cols-1 sm:grid-cols-2 justify-center items-center mt-20 max-w-[80%]" id='home'>
+    <div
+      className="p-5 grid grid-cols-1 sm:grid-cols-2 justify-center items-center mt-20 max-w-[80%]"
+      id="home"
+    >
       <div>
         <p className="text-5xl font-semibold px-1">Hi, I am </p>
         <p className="text-5xl font-semibold"></p>
