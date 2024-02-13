@@ -3,6 +3,7 @@ import LinkStrips from '@/components/LinkStrips'
 import MainPage from '@/components/MainPage'
 import Navbar from '@/components/Navbar'
 import Skills from '@/components/Skills'
+import Work from '@/components/Work'
 import Image from 'next/image'
 
 export default function Home() {
@@ -14,7 +15,7 @@ export default function Home() {
       <MainPage />
       <About />
       <Skills />
-      <div className="min-h-screen"></div>
+      <Work />
     </div>
   )
 }
