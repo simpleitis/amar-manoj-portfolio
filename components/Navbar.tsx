@@ -8,7 +8,7 @@ const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false)
 
   return (
-    <div className="flex justify-between sticky top-0 p-5 z-20 w-full sm:w-max sm:min-w-[80%] shadow-lg rounded-b-3xl  sm:rounded-3xl sm:mt-10 bg-slate-800 bg-opacity-30 backdrop-blur-md border border-slate-700 ">
+    <div className="flex justify-between sticky top-0 p-5 z-20 w-full sm:w-max sm:min-w-[80%] shadow-lg rounded-b-3xl  sm:rounded-3xl sm:mt-10 bg-slate-800 bg-opacity-30 backdrop-blur-2xl border border-slate-700 ">
       <Link href="#home">
         <div className="self-center font-bold text-gray-800 text-2xl sm:text-3xl py-3 flex">
           <div className=" flex justify-center items-center self-center text-white pl-2">
@@ -57,7 +57,7 @@ const Navbar = () => {
                 </svg>
               </div>
 
-              <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between font-medium text-white bg-slate-800 bg-opacity-50 backdrop-blur-md w-screen h-screen">
+              <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between font-medium text-white bg-slate-800 bg-opacity-50 backdrop-blur-2xl w-screen h-screen">
                 <li className="border-b border-gray-400 my-8 text-2xl font-bold">
                   <Link onClick={() => setIsNavOpen(false)} href="#home">
                     Home
