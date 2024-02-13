@@ -1,5 +1,6 @@
 import About from '@/components/About'
 import Contact from '@/components/Contact'
+import Footer from '@/components/Footer'
 import LinkStrips from '@/components/LinkStrips'
 import MainPage from '@/components/MainPage'
 import Navbar from '@/components/Navbar'
@@ -18,6 +19,7 @@ export default function Home() {
       <Skills />
       <Work />
       <Contact />
+      <Footer />
     </div>
   )
 }
