@@ -26,15 +26,6 @@ const CompanyCarousel = () => {
     )
   })
 
-  const responsive = {
-    500: {
-      items: 2,
-    },
-    700: {
-      items: 3,
-    },
-  }
-
   return (
     <div className="mt-20">
       <p className="text-xl font-semibold mb-5">
@@ -47,7 +38,6 @@ const CompanyCarousel = () => {
         disableButtonsControls
         autoPlay
         infinite
-        responsive={responsive}
         items={items}
       />
     </div>
