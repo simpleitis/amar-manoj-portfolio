@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div className="flex flex-col justify-center items-center top-0 min-w-[80%]">
+    <div className="flex flex-col justify-center items-center sm:min-w-[80%]">
       <Navbar />
 
       <MainPage />
