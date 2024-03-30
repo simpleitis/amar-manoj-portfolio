@@ -23,6 +23,11 @@ export default function Page() {
     '/work3.jpeg',
     '/work4.jpeg',
     '/work5.jpeg',
+    '/work6.jpeg',
+    '/work7.jpeg',
+    '/work8.jpeg',
+    '/work9.jpeg',
+    '/work10.jpeg',
   ]
 
   return (
