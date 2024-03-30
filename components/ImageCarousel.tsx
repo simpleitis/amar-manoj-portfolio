@@ -18,11 +18,11 @@ export default function Page() {
   >()
 
   const images = [
-    '/work1.jpg',
-    '/work2.jpg',
-    '/work3.jpg',
-    '/work4.jpg',
-    '/work5.jpg',
+    '/work1.jpeg',
+    '/work2.jpeg',
+    '/work3.jpeg',
+    '/work4.jpeg',
+    '/work5.jpeg',
   ]
 
   return (
